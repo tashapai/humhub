@@ -14,8 +14,10 @@
     "minimum-stability": "stable",
     "require": {
         "php": ">=5.6.0",
+        "ext-apcu": "*",
         "ext-exif": "^7.2",
         "ext-intl": "^1.1",
+        "ext-sqlite3": "^7.2",
         "ext-zip": "*",
         "bower-asset/animate.css": "*",
         "bower-asset/autosize": "1.*",

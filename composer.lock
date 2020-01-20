@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8b8f26a7bfe97c083eb3059359b058d1",
+    "content-hash": "828bf0b44a7f0cf3a6476533090879d4",
     "packages": [
         {
             "name": "bower-asset/animate.css",
@@ -7064,8 +7064,10 @@
     "prefer-lowest": false,
     "platform": {
         "php": ">=5.6.0",
+        "ext-apcu": "*",
         "ext-exif": "^7.2",
         "ext-intl": "^1.1",
+        "ext-sqlite3": "^7.2",
         "ext-zip": "*"
     },
     "platform-dev": [],
