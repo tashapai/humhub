@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "895686cfcb71541f759e1b6ad37e42d9",
+    "content-hash": "8b8f26a7bfe97c083eb3059359b058d1",
     "packages": [
         {
             "name": "bower-asset/animate.css",
@@ -26,7 +26,7 @@
             "version": "1.18.18",
             "source": {
                 "type": "git",
-                "url": "git@github.com:jackmoore/autosize.git",
+                "url": "https://github.com/jackmoore/autosize.git",
                 "reference": "64e9f33aba55f6aebcf34e91bc811296089e6ec8"
             },
             "dist": {
@@ -259,7 +259,7 @@
             "version": "v4.1.4",
             "source": {
                 "type": "git",
-                "url": "git@github.com:desandro/imagesloaded.git",
+                "url": "https://github.com/desandro/imagesloaded.git",
                 "reference": "67c4e57453120935180c45c6820e7d3fbd2ea1f9"
             },
             "dist": {
@@ -280,7 +280,7 @@
             "version": "3.3.11",
             "source": {
                 "type": "git",
-                "url": "https://github.com/RobinHerbots/Inputmask.git",
+                "url": "git@github.com:RobinHerbots/Inputmask.git",
                 "reference": "5e670ad62f50c738388d4dcec78d2888505ad77b"
             },
             "dist": {
@@ -574,7 +574,7 @@
             "version": "2.0.7.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:yiisoft/jquery-pjax.git",
+                "url": "https://github.com/yiisoft/jquery-pjax.git",
                 "reference": "aef7b953107264f00234902a3880eb50dafc48be"
             },
             "dist": {
@@ -3928,6 +3928,7 @@
                 "escaper",
                 "zf"
             ],
+            "abandoned": "laminas/laminas-escaper",
             "time": "2019-09-05T20:03:20+00:00"
         },
         {
@@ -3983,6 +3984,7 @@
                 "zend",
                 "zf"
             ],
+            "abandoned": "laminas/laminas-http",
             "time": "2019-02-07T17:47:08+00:00"
         },
         {
@@ -4041,6 +4043,7 @@
                 "hydrator",
                 "zf2"
             ],
+            "abandoned": "laminas/laminas-hydrator",
             "time": "2016-02-18T22:38:26+00:00"
         },
         {
@@ -4094,6 +4097,7 @@
                 "ldap",
                 "zf"
             ],
+            "abandoned": "laminas/laminas-ldap",
             "time": "2019-10-17T16:26:26+00:00"
         },
         {
@@ -4139,6 +4143,7 @@
                 "loader",
                 "zf"
             ],
+            "abandoned": "laminas/laminas-loader",
             "time": "2019-09-04T19:38:14+00:00"
         },
         {
@@ -4198,6 +4203,7 @@
                 "stdlib",
                 "zf2"
             ],
+            "abandoned": "laminas/laminas-stdlib",
             "time": "2016-04-12T21:17:31+00:00"
         },
         {
@@ -4245,6 +4251,7 @@
                 "uri",
                 "zf"
             ],
+            "abandoned": "laminas/laminas-uri",
             "time": "2019-10-07T13:35:33+00:00"
         },
         {
@@ -4318,6 +4325,7 @@
                 "validator",
                 "zf2"
             ],
+            "abandoned": "laminas/laminas-validator",
             "time": "2019-01-29T22:26:39+00:00"
         }
     ],
@@ -4756,6 +4764,7 @@
                 "selenium",
                 "webdriver"
             ],
+            "abandoned": "php-webdriver/webdriver",
             "time": "2019-06-13T08:02:18+00:00"
         },
         {
@@ -7055,6 +7064,8 @@
     "prefer-lowest": false,
     "platform": {
         "php": ">=5.6.0",
+        "ext-exif": "^7.2",
+        "ext-intl": "^1.1",
         "ext-zip": "*"
     },
     "platform-dev": [],
